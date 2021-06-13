@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Infinity Scroll</title>
+        <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+        <script>
+            $(document).ready(function () {
+                var appendDocument = function () {
+                    for (var i = 0; i < 20; i++) {
+                        $('<h1>❤ 😍 ❤ 효정, 지호, 미미, 비니, 승희, 유아, 아린 사랑해요 오마이걸~! ❤ 😍 ❤</h1>').appendTo(
+                            'body'
+                        );
+                    }
+                };
+                appendDocument();
+                $(window).scroll(function () {
+                    var scrollHeight = $(window).scrollTop() + $(window).height();
+                    var documentHeight = $(document).height();
+                    if (scrollHeight == documentHeight) {
+                        appendDocument();
+                    }
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div>
+            <h1>(당신은 제가 숨겨둔 이스터에그를 찾았습니다.🥳)</h1>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,138 @@
+
+nav > h1 > a:hover {
+    color: white;
+}
+#academic {
+    font-size: 40px;
+}
+body {
+    background-color: plum;
+    margin: auto;
+}
+.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 100px;
+}
+.grad {
+    font-size: 40px;
+}
+#picture {
+    width: 50%;
+    margin-right: 100px;
+    border-radius: 50px;
+    border: 5px solid white;
+}
+.introduction > h2 {
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.introduction > p {
+    font-family: 'Gamja Flower', cursive;
+    font-size: 25px;
+    font-weight: 300;
+}
+.question {
+    font-size: 50px;
+    margin: 60px 100px 50px;
+}
+.value {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px;
+}
+.text_photo {
+    position: relative;
+    background-color: white;
+    margin: 0 25px;
+    border-radius: 80px;
+}
+.explain {
+    position: absolute;
+    visibility: hidden;
+    font-size: 45px;
+    width: 100%;
+    top: 40%;
+    text-align: center;
+}
+.explain_1 {
+    position: absolute;
+    visibility: hidden;
+    font-size: 45px;
+    width: 100%;
+    top: 40%;
+    text-align: center;
+    color: yellow;
+}
+.text_photo:hover {
+    opacity: 0.5;
+}
+.text_photo:hover .explain {
+    visibility: visible;
+}
+.text_photo:hover .explain_1 {
+    visibility: visible;
+}
+
+.movie {
+    display: flex;
+    list-style: none;
+}
+.movie > li {
+    margin: 10px 20px;
+}
+.movie > li > a > img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: transform 1.5s;
+    border-radius: 30px;
+    border: 5px solid white;
+}
+
+.movie > li > a > img:hover {
+    transform: translate(-50%,-50%) scale(1.2);
+}
+
+.youtube {
+    display: flex;
+    list-style: none;
+}
+.youtube > li {
+    margin: 10px 20px;
+}
+.youtube > li > a > img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: transform 1.5s;
+    border-radius: 30px;
+    border: 5px solid white;
+}
+
+.youtube > li > a > img:hover {
+    transform: translate(-50%,-50%) scale(1.2);
+}
+
+h3 {
+    text-align: center;
+    font-size: 45px;
+}
+footer {
+    margin-top: 500px;
+    text-align: center;
+}
+footer > h3 {
+    font-size: 30px;
+    color: royalblue;
+    margin-bottom: 50px;
+}
+.telent {
+    position: relative;
+    background-color: orange;
+}
